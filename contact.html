@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Maawande Msomi</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body data-theme="regular">
+    <div class="bg-animation">
+        <div class="gradient-bg"></div>
+    </div>
+
+    <nav class="glass-nav">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-text">MM</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="cv.html">CV</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+            <div class="nav-right">
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                    <span class="theme-icon">🌙</span>
+                </button>
+                <div class="mobile-menu">☰</div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container">
+        <div class="glass-card page-header">
+            <h1 class="page-title">Get In Touch</h1>
+            <p class="page-subtitle">Let's build something amazing together</p>
+        </div>
+
+        <div class="contact-grid">
+            <div class="glass-card contact-info">
+                <h3>Contact Information</h3>
+                <div class="contact-detail">
+                    <span class="contact-icon">📧</span>
+                    <div>
+                        <strong>Email</strong><br>
+                        <a href="mailto:mawandem98@gmail.com">mawandem98@gmail.com</a>
+                    </div>
+                </div>
+                <div class="contact-detail">
+                    <span class="contact-icon">📱</span>
+                    <div>
+                        <strong>Phone</strong><br>
+                        <a href="tel:+27717767854">+27 71 776 7854</a>
+                    </div>
+                </div>
+                <div class="contact-detail">
+                    <span class="contact-icon">📍</span>
+                    <div>
+                        <strong>Location</strong><br>
+                        Johannesburg, South Africa
+                    </div>
+                </div>
+                <div class="contact-detail">
+                    <span class="contact-icon">💻</span>
+                    <div>
+                        <strong>GitHub</strong><br>
+                        <a href="https://github.com/MawandeM-98" target="_blank">github.com/MawandeM-98</a>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="#" class="social-link">🔗 LinkedIn</a>
+                    <a href="https://github.com/MawandeM-98" target="_blank" class="social-link">🐙 GitHub</a>
+                    <a href="#" class="social-link">🐦 Twitter</a>
+                </div>
+            </div>
+
+            <div class="glass-card contact-form">
+                <h3>Send a Message</h3>
+                <form id="contactForm">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <input type="text" placeholder="Subject">
+                    <textarea rows="5" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn-primary">Send Message</button>
+                </form>
+                <p class="form-note">* This is a demo form. In production, integrate with Formspree or EmailJS.</p>
+            </div>
+        </div>
+    </main>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

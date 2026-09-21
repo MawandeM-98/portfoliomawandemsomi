@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Maawande Msomi</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body data-theme="regular">
+    <div class="bg-animation">
+        <div class="gradient-bg"></div>
+    </div>
+
+    <nav class="glass-nav">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-text">MM</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+                <li><a href="cv.html">CV</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="nav-right">
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                    <span class="theme-icon">🌙</span>
+                </button>
+                <div class="mobile-menu">☰</div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container">
+        <div class="glass-card page-header">
+            <h1 class="page-title">My Projects</h1>
+            <p class="page-subtitle">Enterprise-grade applications, games, and full-stack solutions</p>
+        </div>
+
+        <div class="projects-grid" id="projectsContainer">
+            <!-- Projects will be dynamically loaded here -->
+        </div>
+    </main>
+
+    <script src="js/projects.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
